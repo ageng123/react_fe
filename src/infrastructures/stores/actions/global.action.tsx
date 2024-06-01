@@ -1,0 +1,1 @@
+export const reloadChat = (payload: any) => ({type: "RELOAD_CHAT", reload: payload?.reload ?? null})
